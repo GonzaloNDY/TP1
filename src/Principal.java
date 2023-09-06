@@ -23,7 +23,7 @@ public class Principal {
         System.out.println(variableDoble);
         System.out.println(variableCadena);
         
-        ArrayList<Float> listaDeFloats = new ArrayList<Float>();
+        ArrayList<Float> listaDeFloats = new ArrayList<>();
         listaDeFloats.add(123.4f);
         listaDeFloats.add(234.5f);
         listaDeFloats.add(345.6f);
@@ -41,5 +41,6 @@ public class Principal {
         
         promedio = suma /listaDeFloats.size();
         System.out.println(promedio);
+        
     }
 }
