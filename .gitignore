@@ -1,1 +1,26 @@
-.xml
+# Generado con chatgpt
+
+# Ignora archivos y directorios generados por NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/build/
+/nbactions.xml
+/nb-configuration.xml
+
+# Ignora archivos específicos de NetBeans
+*.log
+
+# Ignora archivos de configuración de Eclipse (si no estás utilizando Eclipse)
+.classpath
+.project
+.settings/
+
+# Ignora archivos de entorno
+.DS_Store
+Thumbs.db
+
+# Ignora archivos de dependencias gestionadas por Maven o Gradle
+/target/
+/.gradle/
+/.m2/
